@@ -1,8 +1,8 @@
 {
   "name": "@mcbeutils/chestclaims",
   "author": "PMK744",
-  "repository": "https://github.com/PMK744/textapi",
-  "homepage": "https://github.com/PMK744/texapi",
+  "repository": "https://github.com/MCBE-Utilities/ChestClaims",
+  "homepage": "https://github.com/MCBE-Utilities/ChestClaims",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "./dist/index.js",
