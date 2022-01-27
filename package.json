@@ -1,7 +1,16 @@
 {
-  "name": "chestclaims",
+  "name": "@mcbeutils/chestclaims",
+  "author": "PMK744",
+  "repository": "https://github.com/PMK744/textapi",
+  "homepage": "https://github.com/PMK744/texapi",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "module": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.js"
+  },
   "beapiModule": true,
   "include": [
     "scripts",
@@ -10,12 +19,17 @@
     "entities",
     "pack_icon.png"
   ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc && beapi build",
     "bundle": "tsc && beapi bundle"
   },
+  "peerDependencies": {
+    "beapi-core": "^2.1.0"
+  },
   "dependencies": {
-    "beapi-core": "^2.1.0",
     "typescript": "^4.5.4"
   }
 }

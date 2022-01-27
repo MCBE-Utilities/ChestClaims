@@ -11,7 +11,7 @@
     "sourceMap": false,
     "skipLibCheck": true,
     // Set declaratoin to true when creating a module.
-    "declaration": false
+    "declaration": true
   },
   "include": ["src"]
 }

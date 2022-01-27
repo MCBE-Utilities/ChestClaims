@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "description": "Advanced API Wrapper for GameTests.",
-    "name": "§l§9ChestClaims",
+    "name": "@mcbeutils/chestclaims",
     "uuid": "f3eb0a0d-0241-4a05-a60c-108348c8c4a7",
     "version": [
       0,
